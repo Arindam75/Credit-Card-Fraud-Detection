@@ -25,4 +25,5 @@ Clearly SMOTE overshadows ADASYN
 
 ## 4. Model Building
 
-
+For this exercise, we used Logistic Regression, KNN, LDA and XGBOOST. We were expecting XGBOOST to be the best model, however due to awfully long tuning times , we couldn't continue hyperparameter tuning. So we choose Logistic Regression that we built using SMOTE. We will now choose an appropriate threshold.
+The best model turns out to be the Logistic Regression Model with SMOTE.We plot the ROC-AUC curve along with the thresholds
